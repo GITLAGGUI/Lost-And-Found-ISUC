@@ -1,0 +1,30 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Runtime / uploads (user-generated)
+/uploads/
+!/uploads/.gitkeep
+
+# Local env files
+.env
+.env.*
+
+# XAMPP / Apache temp (just in case)
+*.pid
